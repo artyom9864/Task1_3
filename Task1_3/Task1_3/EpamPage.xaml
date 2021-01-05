@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task1_3.EpamPage"
+             Title="EpamTask_1">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry  x:Name="_entryName" Placeholder="Write name"></Entry>
+            <Button Text="Click me :)" FontAttributes="Bold" Clicked="ButtonHello_Click"> </Button>
+            <Label x:Name="_lableMessage" FontSize="30" Text="Result" ></Label>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
